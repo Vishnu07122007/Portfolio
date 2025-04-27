@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+  /* Basic Reset */
+body {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    color: white;
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 80px;
+    background: black;
+}
+.sidebar span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.separator {
+    height: 2px;
+    background-color: aqua;
+    margin: 10px 0;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.hamburger-button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    z-index: 1100;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}
+.Portfolio {
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.topnav span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.topnav span:hover {
+    color: white;
+}
+/* Sidebar links */
+.sidebar a span {
+    color: aqua; /* Default color */
+    font-size: 25px;
+    display: block;
+    margin: 20px 0;
+}
+
+.sidebar a span:hover {
+    color: white; /* Hover color */
+    text-decoration: underline;
+}
+
+/* Top navbar links */
+.topnav a span {
+    color: aqua; /* Default color */
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.topnav a span:hover {
+    color: white; /* Hover color */
+    text-decoration: underline;
+}
+
+
+/* Main Content */
+.main-content {
+    margin-top: 70px;
+    font-size: 20px;
+    background-color: #333;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+.main {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px  aqua;
+    line-height: 1.6;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* Profile and Text Side by Side */
+.profile-text-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.text-content {
+    flex: 1;
+}
+
+/* Profile Picture */
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid aqua;
+    box-shadow: 0 0 15px aqua;
+    transition: transform 0.3s ease;
+    background-color: #333;
+    object-fit: cover;
+}
+.profile-picture:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 25px aqua;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+}
+
+/* Projects contact about  Section */
+.projects,.about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px aqua;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+ .contact  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px aqua;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+.projects h2, .contact h2 , .about h2 {
+    font-size: 35px;
+    color: aqua;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* Links */
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.contact a:link:hover {
+    text-decoration: underline;
+    color: rgb(10, 250, 246);
+}
+
+.love{
+    color: aqua;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    padding-left:15vh;
+}
